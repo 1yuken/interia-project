@@ -1,0 +1,67 @@
+.hire {
+    border-radius: 50px 50px 0px 50px;
+    background: #212828;
+    position: absolute;
+    margin-top: -150px;
+    width: 1136px;
+    padding: 60px 105px 70px 147px;
+    overflow: hidden;
+
+    @media (max-width: 1200px) {
+        width: 936px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    @media (max-width: 992px) {
+        width: 636px;
+        padding: 40px 60px 40px 147px;
+        margin-top: -100px;
+    }
+
+    @media (max-width: 650px) {
+        display: none;
+    }
+}
+
+.hire__title {
+    margin-bottom: 30px;
+    position: relative;
+    margin-left: 350px;
+
+    @media (max-width: 1200px) {
+        font-size: 26px;
+    }
+
+    @media (max-width: 992px) {
+        font-size: 16px;
+        margin-left: 250px;
+        margin-bottom: 15px;
+    }
+}
+
+.hire__btn {
+    position: relative;
+    border-radius: 100px;
+    border: 1px solid #6D7D7D;
+    background: rgba(255, 255, 255, 0.00);
+    margin-left: 350px;
+
+    @media (max-width: 992px) {
+        font-size: 14px;
+        margin-left: 250px;
+        padding: 6px 14px;
+        letter-spacing: 2.88px;
+    }
+}
+
+.hire__img {
+    position: absolute;
+    top: 2px;
+    left: 0;
+    border-radius: 50px 50px 0px 50px;
+
+    @media (max-width: 992px) {
+        margin-top: -50px;
+    }
+}

@@ -1,0 +1,114 @@
+#about-section {
+    background: #191D1D;
+    padding: 40px 0 250px;
+
+    @media (max-width: 992px) {
+        padding: 40px 0 125px;
+    }
+
+    @media (max-width: 650px) {
+        padding: 40px 0 80px;
+    }
+}
+
+.about__title {
+    margin-bottom: 20px;
+}
+
+.about__subtitle {
+    max-width: 515px;
+
+    @media (max-width: 768px) {
+        margin-bottom: 40px;
+    }
+}
+
+.about {
+    display: flex;
+    gap: 23px;
+
+    @media (max-width: 1200px) {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.about-block__right {
+    display: flex;
+    gap: 23px;
+
+    @media (max-width: 1200px) {
+        gap: clamp(1.438rem, -0.104rem + 3.21vw, 3.75rem);
+        justify-content: center;
+    }
+
+    @media (max-width: 480px) {
+        flex-direction: column;
+    }
+}
+
+
+.about__learn {
+    display: flex;
+    align-items: center;
+    gap: clamp(1.438rem, -2.604rem + 8.42vw, 7.5rem);
+    margin-bottom: 56px;
+
+    @media (max-width: 480px) {
+        flex-direction: column;
+    }
+}
+
+.about__btn {
+    align-self: flex-end;
+
+    @media (max-width: 480px) {
+        margin: 0 auto;
+    }
+}
+
+.about-stats__wrapper {
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+    gap: clamp(1.875rem, -0.125rem + 4.17vw, 4.875rem);
+
+    @media (max-width: 390px) {
+        flex-direction: column;
+        align-items: baseline;
+        justify-content: center;
+    }
+}
+
+.about-stats__count {
+    color: #6D7D7D;
+    font-size: 40px;
+    line-height: normal;
+}
+
+.about-stats__text {
+    font-size: 16px;
+    line-height: normal;
+    letter-spacing: 6.88px;
+}
+
+.teams-companies {
+    margin-top: 75px;
+
+    @media (max-width: 992px) {
+        margin-top: 50px;
+    }
+}
+
+.teams-companies__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: clamp(1.25rem, -2.083rem + 6.94vw, 6.25rem);
+
+    @media (max-width: 992px) {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,79 @@
+body {
+    overflow-x: hidden;
+    position: relative;
+    color: #fff;
+    @include font('Kanit', 400);
+    background: $bg;
+    
+    &.active-body {
+        overflow: hidden;
+    }
+    --nav-vertical-size: 100px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 36px;
+}
+
+a,
+button {
+    color: #fff;
+    text-decoration: none;
+}
+
+ul li,
+ol li {
+    list-style: none;
+}
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.btn-primary {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 6.88px;
+    border-radius: 100px;
+    border: 1px solid #6D7D7D;
+    background: rgba(255, 255, 255, 0.00);
+    padding: 8px 32px;
+    transition: all .4s ease-in-out;
+
+    &:hover {
+        background-color: #fff;
+        color: #000;
+    }
+}
+
+.uptitle {
+    color: #6D7D7D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 6.88px;
+}
+
+.title {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.subtitle {
+    margin-bottom: 75px;
+    font-family: 'Nunito';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+}

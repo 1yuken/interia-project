@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Almarai:wght@700&family=Kanit&family=Martel+Sans&family=Mitr&family=Nunito&display=swap');
+
+@import 'normalize.css';
+@import 'components/vars';
+@import 'components/mixins';
+// @import 'components/normalize';
+
+// reset
+@import 'components/reset';
+@import 'components/default';
+
+// blocks
+
+@import 'blocks/header';
+@import 'blocks/hero';
+@import 'blocks/about';
+@import 'blocks/teams';
+@import 'blocks/hire';
+@import 'blocks/design';
+@import 'blocks/blog';
+@import 'blocks/footer';
